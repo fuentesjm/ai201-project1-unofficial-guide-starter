@@ -10,7 +10,7 @@
 ## Domain
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
-
+Domain of choosing was on-campus and off-campus dining options. I believe this knowledge is valuable because it is hard to know where it the best place to eat at in and around campus. CSULB has very limited on-campus dining options and alot of off-campus dining options. There is some great resturants off-campus which may not be well known and hard to find on CSULB website.
 ---
 
 ## Documents
@@ -20,16 +20,16 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | Reddit | Different opinions of places to eat aorund CSULB Campus | https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/|
+| 2 | Grubhub | Reviews | |
+| 3 | CSULB | List of Places to Eat on Campus | https://www.csulb.edu/beach-shops/eat-and-shop?utm_source=Drupal&utm_medium=Web%20Rotator&utm_campaign=Rotator#eateries |
+| 4 | Yelp | List of resturants near campus and on in order of best reviews | https://www.yelp.com/search?find_desc=Food&find_loc=90815&l=g%3A-118.11471984191658%2C33.78240576943979%2C-118.12422850106053%2C33.77138750241378 |
+| 5 | Google Places  | List of resturants near campus | https://www.google.com/search?sca_esv=b0e7c006bdd513b1&sxsrf=ANbL-n6XK0j3QvNX5gJ1muqjFsYaSAN7hA:1781039070811&q=top+rated+restaurants+near+california+state+university+long+beach&uds=ALYpb_ncDc7jTlmw6Mmq7NjuX5c-FcIr1Fzv1FPScOtQ3QSiLeHGE33Ku6PfayYRWmciqP4yKPr0MofYsYpYQ-4L_XcFqiKp2flnQcOF5TTJVdJGytOUdyuZaUlgwDuQsuzJaHaFvYtJWfdtDi6b78aK6ht1NUaKdipNQfwGd71kfo5XiZthUEvhn5zIt17cdFadatlkb-zeYmFu_EhG6ub1nVEcHilSKMH_k-a-OIKxDWOr0Tp9Uv4KyN_uBTbL0FsFsjj-LfVg&udm=1&sa=X&ved=2ahUKEwj1h5bJh_uUAxXrIUQIHf-3F90QxKsJKAF6BAghEAE&ictx=0&biw=1440&bih=789&dpr=2 |
+| 6 | Yelp  | Yelp Reviews of Outpost Grill | https://www.yelp.com/biz/the-outpost-grill-long-beach#reviews |
+| 7 | Yelp | Yelp Reviews of Marris Pizza and Italian restaurant | https://www.yelp.com/biz/marris-pizza-and-italian-restaurant-long-beach?osq=Sandwiches#reviews|
+| 8 | Yelp | Yelp Reviews of Blue Burro | https://www.yelp.com/biz/blue-burro-long-beach-3?osq=Sandwiches#reviews |
+| 9 | Yelp | Yelp Reviews of Fantastic Cafe | https://www.yelp.com/biz/fantastic-caf%C3%A9-long-beach-3?osq=Sandwiches |
+| 10 | Yelp |  Yelp Reviews of Sapporo sushi | https://www.yelp.com/biz/sapporo-sushi-long-beach?osq=Sandwiches#reviews|
 
 ---
 
