@@ -41,10 +41,13 @@ Domain of choosing was on-campus and off-campus dining options. I believe this k
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
 **Chunk size:**
+200-300 tokens
 
 **Overlap:**
+30-50 tokens
 
 **Reasoning:**
+Large chunk token size over 300 tokens might create more noise such as irrelevant gibberish being retrieved. Majority of reviews and lists in my URLs have information that consist of decent size sentences which will make small chunks have no surrounding context.
 
 ---
 
@@ -57,10 +60,16 @@ Domain of choosing was on-campus and off-campus dining options. I believe this k
      support, accuracy on domain-specific text, latency? -->
 
 **Embedding model:**
+all-MiniLM-L6-v2 via sentence-transformer
+(why? model is good at semantic similarity for conversational, opinion-based text not keyword matching)
 
 **Top-k:**
+5-7
+(why? gives multiple restuaarant recommendations or varied opions on the same resturant)
 
 **Production tradeoff reflection:**
+OpenAI's text-embedding-3-large
+much higher accuracy for dining opinions if cost weren't a constraint
 
 ---
 
@@ -73,11 +82,11 @@ Domain of choosing was on-campus and off-campus dining options. I believe this k
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | What do reviews say about wait times and crowds at The Outpost Grill? | reviews of Outpost Grill that mention wait time, crowd size, or service speed from their reviews section. |
+| 2 | What do students say on Reddit about dining options directly on the CSULB campus? | discussion mentioning limited on-campus options and specific student opinions (e.g., complaints about limited choices or specific dining hall names). |
+| 3 | Which sandwich restaurants near CSULB campus are recommended on Yelp? | Yelp reviews/mentions of Blue Burro, Marris Pizza, or Fantastic Cafe, showing they are the sandwich-focused options |
+| 4 | What quick lunch options do students recommend for between classes at CSULB? | discussion or review mentions of fast-casual restaurants suitable for quick dining near campus. |
+| 5 | Is Sapporo Sushi well-reviewed, and what are students saying about it? | Sapporo Sushi Yelp reviews with rating/sentiment and specific feedback about the restaurant. |
 
 ---
 
@@ -87,9 +96,9 @@ Domain of choosing was on-campus and off-campus dining options. I believe this k
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. off-topic retrieval. output information which does not make sense with the prompt
 
-2.
+2. missing source attribution
 
 ---
 
@@ -101,7 +110,53 @@ Domain of choosing was on-campus and off-campus dining options. I believe this k
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
 
+
+    ┌─────────────────────┐
+    │ Document Ingestion  │
+    │  (BeautifulSoup,    │
+    │   requests, Yelp    │
+    │   & Reddit APIs)    │
+    └──────────┬──────────┘
+               │
+               ▼
+    ┌─────────────────────┐
+    │    Chunking         │
+    │  (LangChain's       │
+    │   RecursiveCharacter│
+    │   TextSplitter or   │
+    │   custom splitter)  │
+    │  200-300 tokens,    │
+    │  30-50 overlap      │
+    └──────────┬──────────┘
+               │
+               ▼
+    ┌─────────────────────────────────────┐
+    │ Embedding + Vector Store            │
+    │  (sentence-transformers:            │
+    │   all-MiniLM-L6-v2 → embeddings)    │
+    │  (FAISS or ChromaDB for storage)    │
+    └──────────┬──────────────────────────┘
+               │
+               ▼
+    ┌─────────────────────┐
+    │    Retrieval        │
+    │  (FAISS/ChromaDB    │
+    │   similarity search)│
+    │  top-k = 5-7        │
+    │  chunks retrieved   │
+    └──────────┬──────────┘
+               │
+               ▼
+    ┌─────────────────────┐
+    │    Generation       │
+    │  (Claude or GPT-4   │
+    │   with retrieved    │
+    │   context)          │
+    │  → Student-friendly │
+    │     answer          │
+    └─────────────────────┘
 ---
+
 
 ## AI Tool Plan
 
