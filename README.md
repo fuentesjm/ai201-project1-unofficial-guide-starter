@@ -13,7 +13,7 @@
      Why is this knowledge valuable, and why is it hard to find through official channels?
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
-My domain is **on-campus and off-campus dining options for CSULB students**. This knowledge is valuable because it is genuinely hard to know where the best places to eat are in and around campus. CSULB has very limited on-campus dining options and a large number of off-campus options. Some of the best off-campus restaurants are not well known and are hard to find through the official CSULB website, which only lists campus eateries and their hours — not opinions, prices, wait times, or whether a place is actually good. The real signal lives in student conversations (Reddit) and customer reviews (Yelp), which is exactly what this system retrieves over.
+My domain is on-campus and off-campus dining options for CSULB students. This knowledge is valuable because it is genuinely hard to know where the best places to eat are in and around campus. CSULB has very limited on-campus dining options and a large number of off-campus options. Some of the best off-campus restaurants are not well known and are hard to find through the official CSULB website, which only lists campus eateries and their hours — not opinions, prices, wait times, or whether a place is actually good. 
 
 ---
 
@@ -56,9 +56,9 @@ My domain is **on-campus and off-campus dining options for CSULB students**. Thi
      - Any preprocessing you did before chunking (e.g., stripping HTML, removing headers)
      - What your final chunk count was across all documents -->
 
-**Chunk size:** 250 tokens, measured with the embedding model's *own* tokenizer (`all-MiniLM-L6-v2`) so the chunk size matches exactly what the model encodes. Implemented in `scripts/03_chunk.py` as the `CHUNK_SIZE` constant.
+**Chunk size:** 250 tokens because our raw documents are not huge responses, some are short but others are moderate in size.
 
-**Overlap:** 40 tokens (`CHUNK_OVERLAP`). When a chunk is closed, trailing sentences worth ~40 tokens are carried into the next chunk so information that sits on a boundary isn't cut in half.
+**Overlap:** 40 tokens. When a chunk is closed, trailing sentences worth ~40 tokens are carried into the next chunk so information that sits on a boundary isn't cut in half.
 
 **Why these choices fit my documents:** My planning spec called for 200–300 tokens / 30–50 overlap. I locked in **250 / 40** for a concrete reason: `all-MiniLM-L6-v2` truncates input at **256 tokens**, so a 300-token chunk would be silently cut off at embed time. 250 sits at the top of my range while staying under that hard cap — verified that **0 of 79 chunks exceed 256 tokens** (max = 250). My documents are mostly short, self-contained reviews and comments, so most chunks are a single review/comment (avg 73 tokens); the only document that actually needs splitting is the run-on CSULB hours page, which has no sentence boundaries and is split with a sliding token window.
 
@@ -171,9 +171,11 @@ Two embedding-model effects combined:
 <!-- Reflect on how planning.md shaped your implementation.
      Answer both questions with at least 2–3 sentences each. -->
 
-**One way the spec helped you during implementation:** Writing the Chunking Strategy and Retrieval Approach sections *before* coding forced me to commit to concrete numbers (200–300 token chunks, `all-MiniLM-L6-v2`, top-k 5–7). That specificity surfaced a conflict early: my planned 300-token chunks would exceed MiniLM's 256-token limit and get silently truncated at embed time. Because the spec named both the chunk range *and* the model, I caught this before indexing and locked the chunk size at 250 — under the cap and verified against the tokenizer. The architecture diagram also kept the pipeline honest: each stage had a defined input/output, so I built `ingest → clean → chunk → embed → retrieve → generate` as discrete, testable scripts instead of one tangled file.
+**One way the spec helped you during implementation:**
+ Writing the Chunking Strategy and Retrieval Approach sections *before* coding forced me to commit to concrete numbers (200–300 token chunks, `all-MiniLM-L6-v2`, top-k 5–7). That specificity surfaced a conflict early: my planned 300-token chunks would exceed MiniLM's 256-token limit and get silently truncated at embed time. Because the spec named both the chunk range *and* the model, I caught this before indexing and locked the chunk size at 250 — under the cap and verified against the tokenizer. The architecture diagram also kept the pipeline honest: each stage had a defined input/output, so I built `ingest → clean → chunk → embed → retrieve → generate` as discrete, testable scripts instead of one tangled file.
 
-**One way your implementation diverged from the spec, and why:** My planning diagram listed **Claude or GPT-4** for generation and **LangChain's RecursiveCharacterTextSplitter** for chunking, but I diverged on both. For generation I used **Groq `llama-3.3-70b-versatile`** because it's free-tier and rate-limit-free, which fits a no-budget student project better than a paid API. For chunking I wrote a **custom token-aware splitter** instead of LangChain because LangChain wasn't a project dependency, and a custom splitter let me measure tokens with the embedding model's exact tokenizer and add reply-threading — something the generic character splitter couldn't do. Both divergences were driven by practical constraints (cost, dependencies) discovered during implementation, which is exactly what the spec told me to update as I went.
+**One way your implementation diverged from the spec, and why:** 
+My planning diagram listed **Claude or GPT-4** for generation and **LangChain's RecursiveCharacterTextSplitter** for chunking, but I diverged on both. For generation I used **Groq `llama-3.3-70b-versatile`** because it's free-tier and rate-limit-free, which fits a no-budget student project better than a paid API. For chunking I wrote a **custom token-aware splitter** instead of LangChain because LangChain wasn't a project dependency, and a custom splitter let me measure tokens with the embedding model's exact tokenizer and add reply-threading — something the generic character splitter couldn't do. Both divergences were driven by practical constraints (cost, dependencies) discovered during implementation, which is exactly what the spec told me to update as I went.
 
 ---
 

@@ -170,8 +170,23 @@ much higher accuracy for dining opinions if cost weren't a constraint
      "I'll give Claude my Chunking Strategy section and ask it to implement chunk_text()
      with my specified chunk size and overlap" is a plan. -->
 
-**Milestone 3 — Ingestion and chunking:**
+Milestone 3 — Ingestion and chunking:
 
-**Milestone 4 — Embedding and retrieval:**
+- Tool: Claude (Claude Code).
+- Input: My Documents table (the Reddit/Yelp/CSULB URLs) and my Chunking Strategy section (250-token chunks, 40 overlap, MiniLM's 256-token cap). I'll ask it to write the ingest, clean, and chunk scripts.
+- Expected output: Ingestion into raw_documents/, cleaning that strips HTML/nav/footer noise and parses the Reddit comment tree, and a token-aware chunker that packs whole sentences up to 250 tokens with overlap and records source metadata.
+- Verification: Read ~5 sample chunks and assert no chunk exceeds 256 tokens. I'll override chunk size from 300 to 250 and add parent-comment threading if a reply loses its referent.
 
-**Milestone 5 — Generation and interface:**
+Milestone 4 — Embedding and retrieval:
+
+- Tool: Claude (Claude Code).
+- Input: My Retrieval Approach section (all-MiniLM-L6-v2, top-k 5–7) and the architecture diagram. I'll ask it to implement embedding and a retrieval function with source metadata.
+- Expected output: A script that stores normalized embeddings in a persistent ChromaDB collection (cosine space), and a retrieve(query, k) function returning top-k chunks with distance scores and metadata.
+- Verification: Run my 5 eval questions through retrieve() and inspect the returned chunks and distances. I expect to override the metadata to store doc_name + chunk_index for attribution and lower top-k to 5 to cut off-target results.
+
+Milestone 5 — Generation and interface:
+
+- Tool: Claude (Claude Code).
+- Input: The Generation stage of my diagram plus my Anticipated Challenges (off-topic retrieval, missing attribution), with the rule that the model answers only from retrieved context, refuses when context is thin, and cites sources. I'll ask it to write the generation script and a simple app interface.
+- Expected output: A generation function at temperature 0 with a system prompt that forbids outside knowledge and forces a fixed refusal string, plus a source list built programmatically from chunk metadata so attribution can't be hallucinated.
+- Verification: Ask an out-of-corpus question (capital of France) and confirm it returns only the refusal string with no sources, then run all 5 eval questions and check each claim traces to a retrieved chunk. I diverged from the diagram's Claude/GPT-4 to Groq's free llama-3.3-70b-versatile, noted here per the spec.
