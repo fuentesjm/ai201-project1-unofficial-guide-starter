@@ -18,9 +18,12 @@ import os
 from dotenv import load_dotenv
 from groq import Groq
 
-from retrieve import DEFAULT_K, retrieve
+from retrieve import DEFAULT_K, PROJECT_ROOT, retrieve
 
-load_dotenv()
+# Load the project's .env explicitly and let it WIN over any stale GROQ_API_KEY
+# already exported in the shell (override=True). Anchoring to PROJECT_ROOT means
+# it's found no matter which directory the app is launched from.
+load_dotenv(PROJECT_ROOT / ".env", override=True)
 
 GROQ_MODEL = "llama-3.3-70b-versatile"   # free-tier, OpenAI-compatible
 REFUSAL = "I don't have enough information on that."

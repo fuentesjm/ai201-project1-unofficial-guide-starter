@@ -2,7 +2,10 @@ import json
 import re
 from pathlib import Path
 
-OUTPUT_DIR = "cleaned_documents"
+# Anchor to project root so the script works regardless of launch directory.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+INPUT_DIR = str(PROJECT_ROOT / "raw_documents")
+OUTPUT_DIR = str(PROJECT_ROOT / "cleaned_documents")
 Path(OUTPUT_DIR).mkdir(exist_ok=True)
 
 print("=" * 80)
@@ -204,7 +207,7 @@ success_count = 0
 total_count = 0
 
 for filename, clean_func in input_files.items():
-    input_path = f"raw_documents/{filename}"
+    input_path = f"{INPUT_DIR}/{filename}"
     
     if not Path(input_path).exists():
         print(f"\n⚠ Skipped: {filename} (not found)")

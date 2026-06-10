@@ -13,8 +13,10 @@ EMBED_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 CHUNK_SIZE = 250      # tokens, measured with the embedding model's own tokenizer
 CHUNK_OVERLAP = 40    # tokens carried from the end of one chunk into the next
 
-INPUT_DIR = "cleaned_documents"
-OUTPUT_DIR = "chunks"
+# Anchor to project root so the script works regardless of launch directory.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+INPUT_DIR = str(PROJECT_ROOT / "cleaned_documents")
+OUTPUT_DIR = str(PROJECT_ROOT / "chunks")
 OUTPUT_FILE = f"{OUTPUT_DIR}/chunks.json"
 
 Path(OUTPUT_DIR).mkdir(exist_ok=True)

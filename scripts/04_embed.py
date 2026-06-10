@@ -18,10 +18,11 @@ from retrieve import (
     COLLECTION_NAME,
     EMBED_MODEL,
     PERSIST_DIR,
+    PROJECT_ROOT,
     embed_texts,
 )
 
-CHUNKS_FILE = "chunks/chunks.json"
+CHUNKS_FILE = str(PROJECT_ROOT / "chunks" / "chunks.json")
 BATCH_SIZE = 64
 
 print("=" * 80)

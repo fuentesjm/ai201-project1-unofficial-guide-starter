@@ -8,13 +8,20 @@ Shared config + the retrieve() function used by both the embedding step
 (04_embed.py) and the generation step (Milestone 5).
 """
 
+from pathlib import Path
+
 import chromadb
 from sentence_transformers import SentenceTransformer
+
+# Anchor paths to the project root (parent of scripts/) so the scripts work no
+# matter what directory they're launched from — a relative "chroma_db" would
+# otherwise create an empty DB beside the launch dir and refuse every question.
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
 
 # === RETRIEVAL CONFIG (from planning.md → Retrieval Approach) ===
 EMBED_MODEL = "all-MiniLM-L6-v2"   # good at semantic similarity for opinion text
 DEFAULT_K = 5                       # start at 5 (low end of spec 5-7); tune up after seeing results
-PERSIST_DIR = "chroma_db"
+PERSIST_DIR = str(PROJECT_ROOT / "chroma_db")
 COLLECTION_NAME = "csulb_dining"
 
 # Lazy singletons so importing this module is cheap; the model (~90MB) and the
