@@ -47,12 +47,16 @@ Domain of choosing was on-campus and off-campus dining options. I believe this k
      - What your final chunk count was across all documents -->
 
 **Chunk size:**
+250
 
 **Overlap:**
+40
 
 **Why these choices fit your documents:**
+Large chunk token size over 300 tokens might create more noise such as irrelevant gibberish being retrieved. Majority of reviews and lists in my URLs have information that consist of decent size sentences which will make small chunks have no surrounding context.
 
 **Final chunk count:**
+70
 
 ---
 

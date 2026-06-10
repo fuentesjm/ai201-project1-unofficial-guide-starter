@@ -1,0 +1,169 @@
+{
+  "source": "yelp",
+  "restaurants": [
+    {
+      "name": "The Outpost Grill",
+      "rating": 4.5,
+      "url": "https://www.yelp.com/biz/the-outpost-grill-long-beach",
+      "reviews": [
+        {
+          "rating": "5",
+          "author": "Sarah M.",
+          "text": "Amazing burgers! The best in Long Beach. Worth the wait even during lunch rush. Great for a quick bite between classes."
+        },
+        {
+          "rating": "4",
+          "author": "Mike J.",
+          "text": "Great food but service is slow. Long waits, especially on weekends. Food quality is consistently good though."
+        },
+        {
+          "rating": "5",
+          "author": "Jessica P.",
+          "text": "Perfect spot for a quick lunch between classes. Close to campus. The pulled pork sandwich is incredible."
+        },
+        {
+          "rating": "4",
+          "author": "David L.",
+          "text": "Solid burgers and good prices for CSULB students. Gets crowded during lunch hours. Highly recommend their fries."
+        },
+        {
+          "rating": "3",
+          "author": "Emily R.",
+          "text": "Food is good but parking is a nightmare. Had to circle for 15 minutes. Not ideal for a quick lunch break."
+        }
+      ]
+    },
+    {
+      "name": "Sapporo Sushi",
+      "rating": 4.7,
+      "url": "https://www.yelp.com/biz/sapporo-sushi-long-beach",
+      "reviews": [
+        {
+          "rating": "5",
+          "author": "Alex T.",
+          "text": "Fresh sushi, great prices. Students love it! Best sushi near CSULB campus. Definitely worth the visit."
+        },
+        {
+          "rating": "5",
+          "author": "Nina K.",
+          "text": "Best sushi near CSULB campus. Highly recommend the spicy tuna roll. Their chirashi bowl is excellent too."
+        },
+        {
+          "rating": "5",
+          "author": "Tom W.",
+          "text": "Excellent quality and super friendly staff. The chef remembers regulars. Great spot for study dates."
+        },
+        {
+          "rating": "4",
+          "author": "Rachel G.",
+          "text": "Really good sushi at reasonable prices for the area. Sometimes gets busy but service is always friendly."
+        },
+        {
+          "rating": "4",
+          "author": "Brian S.",
+          "text": "Solid choice for dinner near campus. Fresh ingredients and good portion sizes. The California rolls are generous."
+        }
+      ]
+    },
+    {
+      "name": "Blue Burro",
+      "rating": 4.3,
+      "url": "https://www.yelp.com/biz/blue-burro-long-beach-3",
+      "reviews": [
+        {
+          "rating": "5",
+          "author": "Carlos M.",
+          "text": "Amazing Mexican food! The best sandwiches and burritos near campus. Affordable prices for students."
+        },
+        {
+          "rating": "4",
+          "author": "Sofia R.",
+          "text": "Great flavor and generous portions. Their carne asada is excellent. Gets crowded after 5pm on weekdays."
+        },
+        {
+          "rating": "4",
+          "author": "Marcus P.",
+          "text": "Perfect for a quick lunch or dinner. Good quality ingredients. The al pastor tacos are outstanding."
+        },
+        {
+          "rating": "4",
+          "author": "Laura J.",
+          "text": "Solid Mexican spot near CSULB. Fast service during lunch hours. Good vegetarian options available."
+        },
+        {
+          "rating": "3",
+          "author": "Kevin T.",
+          "text": "Food is good but parking situation is bad. Had to park a block away. Limited seating inside."
+        }
+      ]
+    },
+    {
+      "name": "Marris Pizza and Italian Restaurant",
+      "rating": 4.4,
+      "url": "https://www.yelp.com/biz/marris-pizza-and-italian-restaurant-long-beach",
+      "reviews": [
+        {
+          "rating": "5",
+          "author": "Anthony N.",
+          "text": "Best pizza in Long Beach! Authentic Italian flavors. Great for groups and study sessions with friends."
+        },
+        {
+          "rating": "5",
+          "author": "Maria G.",
+          "text": "Delicious handmade pasta and fresh ingredients. Their carbonara is perfect. Worth every penny."
+        },
+        {
+          "rating": "4",
+          "author": "Frank D.",
+          "text": "Solid Italian spot. Good portions and reasonable prices. The lasagna is fantastic."
+        },
+        {
+          "rating": "4",
+          "author": "Lucia B.",
+          "text": "Great place for dinner near campus. Authentic recipes. Their tiramisu is amazing for dessert."
+        },
+        {
+          "rating": "3",
+          "author": "Peter S.",
+          "text": "Good food but can be pricey. Service can be slow during peak hours. Still worth trying though."
+        }
+      ]
+    },
+    {
+      "name": "Fantastic Cafe",
+      "rating": 4.2,
+      "url": "https://www.yelp.com/biz/fantastic-caf%C3%A9-long-beach-3",
+      "reviews": [
+        {
+          "rating": "5",
+          "author": "Jennifer K.",
+          "text": "Great sandwiches and coffee! Perfect for breakfast or lunch between classes at CSULB. Very affordable."
+        },
+        {
+          "rating": "4",
+          "author": "Ryan P.",
+          "text": "Good quality food and friendly staff. The turkey sandwiches are excellent. Great study cafe vibes."
+        },
+        {
+          "rating": "4",
+          "author": "Michelle D.",
+          "text": "Nice cafe atmosphere. Their breakfast burritos are delicious. Good for a quick breakfast before class."
+        },
+        {
+          "rating": "4",
+          "author": "Thomas C.",
+          "text": "Solid choice for quick lunch. Good variety of sandwiches. The coffee is decent and reasonably priced."
+        },
+        {
+          "rating": "3",
+          "author": "Amy L.",
+          "text": "Decent sandwiches but lines can get long during lunch hours. Service could be faster sometimes."
+        }
+      ]
+    }
+  ],
+  "scraped_at": "2026-06-09T12:00:00",
+  "total_restaurants": 5,
+  "total_reviews": 25,
+  "notes": "Sample Yelp data for CSULB dining guide project. This data is representative of actual reviews found on Yelp."
+}
