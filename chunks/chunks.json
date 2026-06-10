@@ -10,8 +10,10 @@
       "tokens": 250,
       "metadata": {
         "source": "csulb",
+        "doc_name": "doc_01_csulb",
         "title": "CSULB Campus Dining",
-        "url": "https://www.csulb.edu/beach-shops/eat-and-shop"
+        "url": "https://www.csulb.edu/beach-shops/eat-and-shop",
+        "chunk_index": 0
       }
     },
     {
@@ -20,8 +22,10 @@
       "tokens": 250,
       "metadata": {
         "source": "csulb",
+        "doc_name": "doc_01_csulb",
         "title": "CSULB Campus Dining",
-        "url": "https://www.csulb.edu/beach-shops/eat-and-shop"
+        "url": "https://www.csulb.edu/beach-shops/eat-and-shop",
+        "chunk_index": 1
       }
     },
     {
@@ -30,8 +34,10 @@
       "tokens": 250,
       "metadata": {
         "source": "csulb",
+        "doc_name": "doc_01_csulb",
         "title": "CSULB Campus Dining",
-        "url": "https://www.csulb.edu/beach-shops/eat-and-shop"
+        "url": "https://www.csulb.edu/beach-shops/eat-and-shop",
+        "chunk_index": 2
       }
     },
     {
@@ -40,8 +46,10 @@
       "tokens": 250,
       "metadata": {
         "source": "csulb",
+        "doc_name": "doc_01_csulb",
         "title": "CSULB Campus Dining",
-        "url": "https://www.csulb.edu/beach-shops/eat-and-shop"
+        "url": "https://www.csulb.edu/beach-shops/eat-and-shop",
+        "chunk_index": 3
       }
     },
     {
@@ -50,8 +58,10 @@
       "tokens": 62,
       "metadata": {
         "source": "csulb",
+        "doc_name": "doc_01_csulb",
         "title": "CSULB Campus Dining",
-        "url": "https://www.csulb.edu/beach-shops/eat-and-shop"
+        "url": "https://www.csulb.edu/beach-shops/eat-and-shop",
+        "chunk_index": 4
       }
     },
     {
@@ -60,11 +70,13 @@
       "tokens": 50,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "The Outpost Grill",
         "restaurant_rating": 4.5,
         "review_rating": "5",
         "author": "Sarah M.",
-        "url": "https://www.yelp.com/biz/the-outpost-grill-long-beach"
+        "url": "https://www.yelp.com/biz/the-outpost-grill-long-beach",
+        "chunk_index": 0
       }
     },
     {
@@ -73,11 +85,13 @@
       "tokens": 45,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "The Outpost Grill",
         "restaurant_rating": 4.5,
         "review_rating": "4",
         "author": "Mike J.",
-        "url": "https://www.yelp.com/biz/the-outpost-grill-long-beach"
+        "url": "https://www.yelp.com/biz/the-outpost-grill-long-beach",
+        "chunk_index": 1
       }
     },
     {
@@ -86,11 +100,13 @@
       "tokens": 44,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "The Outpost Grill",
         "restaurant_rating": 4.5,
         "review_rating": "5",
         "author": "Jessica P.",
-        "url": "https://www.yelp.com/biz/the-outpost-grill-long-beach"
+        "url": "https://www.yelp.com/biz/the-outpost-grill-long-beach",
+        "chunk_index": 2
       }
     },
     {
@@ -99,11 +115,13 @@
       "tokens": 47,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "The Outpost Grill",
         "restaurant_rating": 4.5,
         "review_rating": "4",
         "author": "David L.",
-        "url": "https://www.yelp.com/biz/the-outpost-grill-long-beach"
+        "url": "https://www.yelp.com/biz/the-outpost-grill-long-beach",
+        "chunk_index": 3
       }
     },
     {
@@ -112,11 +130,13 @@
       "tokens": 48,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "The Outpost Grill",
         "restaurant_rating": 4.5,
         "review_rating": "3",
         "author": "Emily R.",
-        "url": "https://www.yelp.com/biz/the-outpost-grill-long-beach"
+        "url": "https://www.yelp.com/biz/the-outpost-grill-long-beach",
+        "chunk_index": 4
       }
     },
     {
@@ -125,11 +145,13 @@
       "tokens": 51,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Sapporo Sushi",
         "restaurant_rating": 4.7,
         "review_rating": "5",
         "author": "Alex T.",
-        "url": "https://www.yelp.com/biz/sapporo-sushi-long-beach"
+        "url": "https://www.yelp.com/biz/sapporo-sushi-long-beach",
+        "chunk_index": 5
       }
     },
     {
@@ -138,11 +160,13 @@
       "tokens": 51,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Sapporo Sushi",
         "restaurant_rating": 4.7,
         "review_rating": "5",
         "author": "Nina K.",
-        "url": "https://www.yelp.com/biz/sapporo-sushi-long-beach"
+        "url": "https://www.yelp.com/biz/sapporo-sushi-long-beach",
+        "chunk_index": 6
       }
     },
     {
@@ -151,11 +175,13 @@
       "tokens": 44,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Sapporo Sushi",
         "restaurant_rating": 4.7,
         "review_rating": "5",
         "author": "Tom W.",
-        "url": "https://www.yelp.com/biz/sapporo-sushi-long-beach"
+        "url": "https://www.yelp.com/biz/sapporo-sushi-long-beach",
+        "chunk_index": 7
       }
     },
     {
@@ -164,11 +190,13 @@
       "tokens": 46,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Sapporo Sushi",
         "restaurant_rating": 4.7,
         "review_rating": "4",
         "author": "Rachel G.",
-        "url": "https://www.yelp.com/biz/sapporo-sushi-long-beach"
+        "url": "https://www.yelp.com/biz/sapporo-sushi-long-beach",
+        "chunk_index": 8
       }
     },
     {
@@ -177,11 +205,13 @@
       "tokens": 46,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Sapporo Sushi",
         "restaurant_rating": 4.7,
         "review_rating": "4",
         "author": "Brian S.",
-        "url": "https://www.yelp.com/biz/sapporo-sushi-long-beach"
+        "url": "https://www.yelp.com/biz/sapporo-sushi-long-beach",
+        "chunk_index": 9
       }
     },
     {
@@ -190,11 +220,13 @@
       "tokens": 43,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Blue Burro",
         "restaurant_rating": 4.3,
         "review_rating": "5",
         "author": "Carlos M.",
-        "url": "https://www.yelp.com/biz/blue-burro-long-beach-3"
+        "url": "https://www.yelp.com/biz/blue-burro-long-beach-3",
+        "chunk_index": 10
       }
     },
     {
@@ -203,11 +235,13 @@
       "tokens": 46,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Blue Burro",
         "restaurant_rating": 4.3,
         "review_rating": "4",
         "author": "Sofia R.",
-        "url": "https://www.yelp.com/biz/blue-burro-long-beach-3"
+        "url": "https://www.yelp.com/biz/blue-burro-long-beach-3",
+        "chunk_index": 11
       }
     },
     {
@@ -216,11 +250,13 @@
       "tokens": 44,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Blue Burro",
         "restaurant_rating": 4.3,
         "review_rating": "4",
         "author": "Marcus P.",
-        "url": "https://www.yelp.com/biz/blue-burro-long-beach-3"
+        "url": "https://www.yelp.com/biz/blue-burro-long-beach-3",
+        "chunk_index": 12
       }
     },
     {
@@ -229,11 +265,13 @@
       "tokens": 43,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Blue Burro",
         "restaurant_rating": 4.3,
         "review_rating": "4",
         "author": "Laura J.",
-        "url": "https://www.yelp.com/biz/blue-burro-long-beach-3"
+        "url": "https://www.yelp.com/biz/blue-burro-long-beach-3",
+        "chunk_index": 13
       }
     },
     {
@@ -242,11 +280,13 @@
       "tokens": 44,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Blue Burro",
         "restaurant_rating": 4.3,
         "review_rating": "3",
         "author": "Kevin T.",
-        "url": "https://www.yelp.com/biz/blue-burro-long-beach-3"
+        "url": "https://www.yelp.com/biz/blue-burro-long-beach-3",
+        "chunk_index": 14
       }
     },
     {
@@ -255,11 +295,13 @@
       "tokens": 46,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Marris Pizza and Italian Restaurant",
         "restaurant_rating": 4.4,
         "review_rating": "5",
         "author": "Anthony N.",
-        "url": "https://www.yelp.com/biz/marris-pizza-and-italian-restaurant-long-beach"
+        "url": "https://www.yelp.com/biz/marris-pizza-and-italian-restaurant-long-beach",
+        "chunk_index": 15
       }
     },
     {
@@ -268,11 +310,13 @@
       "tokens": 45,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Marris Pizza and Italian Restaurant",
         "restaurant_rating": 4.4,
         "review_rating": "5",
         "author": "Maria G.",
-        "url": "https://www.yelp.com/biz/marris-pizza-and-italian-restaurant-long-beach"
+        "url": "https://www.yelp.com/biz/marris-pizza-and-italian-restaurant-long-beach",
+        "chunk_index": 16
       }
     },
     {
@@ -281,11 +325,13 @@
       "tokens": 44,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Marris Pizza and Italian Restaurant",
         "restaurant_rating": 4.4,
         "review_rating": "4",
         "author": "Frank D.",
-        "url": "https://www.yelp.com/biz/marris-pizza-and-italian-restaurant-long-beach"
+        "url": "https://www.yelp.com/biz/marris-pizza-and-italian-restaurant-long-beach",
+        "chunk_index": 17
       }
     },
     {
@@ -294,11 +340,13 @@
       "tokens": 47,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Marris Pizza and Italian Restaurant",
         "restaurant_rating": 4.4,
         "review_rating": "4",
         "author": "Lucia B.",
-        "url": "https://www.yelp.com/biz/marris-pizza-and-italian-restaurant-long-beach"
+        "url": "https://www.yelp.com/biz/marris-pizza-and-italian-restaurant-long-beach",
+        "chunk_index": 18
       }
     },
     {
@@ -307,11 +355,13 @@
       "tokens": 48,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Marris Pizza and Italian Restaurant",
         "restaurant_rating": 4.4,
         "review_rating": "3",
         "author": "Peter S.",
-        "url": "https://www.yelp.com/biz/marris-pizza-and-italian-restaurant-long-beach"
+        "url": "https://www.yelp.com/biz/marris-pizza-and-italian-restaurant-long-beach",
+        "chunk_index": 19
       }
     },
     {
@@ -320,11 +370,13 @@
       "tokens": 43,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Fantastic Cafe",
         "restaurant_rating": 4.2,
         "review_rating": "5",
         "author": "Jennifer K.",
-        "url": "https://www.yelp.com/biz/fantastic-caf%C3%A9-long-beach-3"
+        "url": "https://www.yelp.com/biz/fantastic-caf%C3%A9-long-beach-3",
+        "chunk_index": 20
       }
     },
     {
@@ -333,11 +385,13 @@
       "tokens": 42,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Fantastic Cafe",
         "restaurant_rating": 4.2,
         "review_rating": "4",
         "author": "Ryan P.",
-        "url": "https://www.yelp.com/biz/fantastic-caf%C3%A9-long-beach-3"
+        "url": "https://www.yelp.com/biz/fantastic-caf%C3%A9-long-beach-3",
+        "chunk_index": 21
       }
     },
     {
@@ -346,11 +400,13 @@
       "tokens": 43,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Fantastic Cafe",
         "restaurant_rating": 4.2,
         "review_rating": "4",
         "author": "Michelle D.",
-        "url": "https://www.yelp.com/biz/fantastic-caf%C3%A9-long-beach-3"
+        "url": "https://www.yelp.com/biz/fantastic-caf%C3%A9-long-beach-3",
+        "chunk_index": 22
       }
     },
     {
@@ -359,11 +415,13 @@
       "tokens": 42,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Fantastic Cafe",
         "restaurant_rating": 4.2,
         "review_rating": "4",
         "author": "Thomas C.",
-        "url": "https://www.yelp.com/biz/fantastic-caf%C3%A9-long-beach-3"
+        "url": "https://www.yelp.com/biz/fantastic-caf%C3%A9-long-beach-3",
+        "chunk_index": 23
       }
     },
     {
@@ -372,11 +430,13 @@
       "tokens": 40,
       "metadata": {
         "source": "yelp",
+        "doc_name": "doc_04_yelp_sample_data",
         "restaurant": "Fantastic Cafe",
         "restaurant_rating": 4.2,
         "review_rating": "3",
         "author": "Amy L.",
-        "url": "https://www.yelp.com/biz/fantastic-caf%C3%A9-long-beach-3"
+        "url": "https://www.yelp.com/biz/fantastic-caf%C3%A9-long-beach-3",
+        "chunk_index": 24
       }
     },
     {
@@ -385,10 +445,12 @@
       "tokens": 48,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "OP",
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 0
       }
     },
     {
@@ -397,12 +459,14 @@
       "tokens": 37,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "Stickgirl05",
         "reply_to": null,
         "score": 18,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 1
       }
     },
     {
@@ -411,12 +475,14 @@
       "tokens": 37,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "Soggy-Explanation-45",
         "reply_to": null,
         "score": 14,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 2
       }
     },
     {
@@ -425,12 +491,14 @@
       "tokens": 89,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "707Guy",
         "reply_to": null,
         "score": 13,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 3
       }
     },
     {
@@ -439,12 +507,14 @@
       "tokens": 128,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "lolkrayd",
         "reply_to": "707Guy",
         "score": 2,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 4
       }
     },
     {
@@ -453,12 +523,14 @@
       "tokens": 51,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "Longjumping-Visit345",
         "reply_to": null,
         "score": 7,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 5
       }
     },
     {
@@ -467,12 +539,14 @@
       "tokens": 89,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "eaarrl",
         "reply_to": "Longjumping-Visit345",
         "score": 3,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 6
       }
     },
     {
@@ -481,12 +555,14 @@
       "tokens": 73,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "[deleted]",
         "reply_to": "Longjumping-Visit345",
         "score": 2,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 7
       }
     },
     {
@@ -495,12 +571,14 @@
       "tokens": 44,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "707Guy",
         "reply_to": "Longjumping-Visit345",
         "score": 7,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 8
       }
     },
     {
@@ -509,12 +587,14 @@
       "tokens": 48,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "Upnorth4",
         "reply_to": "707Guy",
         "score": 4,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 9
       }
     },
     {
@@ -523,12 +603,14 @@
       "tokens": 105,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "kmellark",
         "reply_to": null,
         "score": 8,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 10
       }
     },
     {
@@ -537,12 +619,14 @@
       "tokens": 30,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "tulippancake",
         "reply_to": null,
         "score": 6,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 11
       }
     },
     {
@@ -551,12 +635,14 @@
       "tokens": 58,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "ETPhoneTheHomiess",
         "reply_to": null,
         "score": 7,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 12
       }
     },
     {
@@ -565,12 +651,14 @@
       "tokens": 83,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "Lost_Collar_2470",
         "reply_to": "ETPhoneTheHomiess",
         "score": 2,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 13
       }
     },
     {
@@ -579,12 +667,14 @@
       "tokens": 56,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "OliveOil34",
         "reply_to": null,
         "score": 5,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 14
       }
     },
     {
@@ -593,12 +683,14 @@
       "tokens": 65,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "Green-Acanthaceae855",
         "reply_to": null,
         "score": 2,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 15
       }
     },
     {
@@ -607,12 +699,14 @@
       "tokens": 36,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "sleve22",
         "reply_to": null,
         "score": 2,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 16
       }
     },
     {
@@ -621,12 +715,14 @@
       "tokens": 192,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "ReporterFrequent9899",
         "reply_to": null,
         "score": 1,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 17
       }
     },
     {
@@ -635,12 +731,14 @@
       "tokens": 77,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "MockingJay720",
         "reply_to": null,
         "score": 1,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 18
       }
     },
     {
@@ -649,12 +747,14 @@
       "tokens": 76,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "RainbowChristianBear",
         "reply_to": null,
         "score": 1,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 19
       }
     },
     {
@@ -663,12 +763,14 @@
       "tokens": 30,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "[deleted]",
         "reply_to": null,
         "score": 0,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 20
       }
     },
     {
@@ -677,12 +779,14 @@
       "tokens": 33,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "UHavPoopInsideU",
         "reply_to": null,
         "score": -2,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 21
       }
     },
     {
@@ -691,12 +795,14 @@
       "tokens": 48,
       "metadata": {
         "source": "reddit",
+        "doc_name": "good_food_place_around_csulb_and_in_long_beach",
         "thread_title": "Good food place around CSULB and in Long Beach",
         "subreddit": "r/CSULB",
         "author": "PartyConstruction287",
         "reply_to": null,
         "score": 1,
-        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1e5w502/good_food_place_around_csulb_and_in_long_beach/",
+        "chunk_index": 22
       }
     },
     {
@@ -705,10 +811,12 @@
       "tokens": 63,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "OP",
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 0
       }
     },
     {
@@ -717,12 +825,14 @@
       "tokens": 36,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "totalof19",
         "reply_to": null,
         "score": 65,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 1
       }
     },
     {
@@ -731,12 +841,14 @@
       "tokens": 48,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "FeedbackQuirky1834",
         "reply_to": null,
         "score": 44,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 2
       }
     },
     {
@@ -745,12 +857,14 @@
       "tokens": 72,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "totalof19",
         "reply_to": "FeedbackQuirky1834",
         "score": 10,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 3
       }
     },
     {
@@ -759,12 +873,14 @@
       "tokens": 53,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "FeedbackQuirky1834",
         "reply_to": "totalof19",
         "score": 11,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 4
       }
     },
     {
@@ -773,12 +889,14 @@
       "tokens": 52,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "musicfanatic6",
         "reply_to": "FeedbackQuirky1834",
         "score": 2,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 5
       }
     },
     {
@@ -787,12 +905,14 @@
       "tokens": 84,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "FeedbackQuirky1834",
         "reply_to": "musicfanatic6",
         "score": 1,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 6
       }
     },
     {
@@ -801,12 +921,14 @@
       "tokens": 112,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "Dependent_Group9552",
         "reply_to": "totalof19",
         "score": 2,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 7
       }
     },
     {
@@ -815,12 +937,14 @@
       "tokens": 79,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "Charming_State_2133",
         "reply_to": "FeedbackQuirky1834",
         "score": 6,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 8
       }
     },
     {
@@ -829,12 +953,14 @@
       "tokens": 123,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "FeedbackQuirky1834",
         "reply_to": "Charming_State_2133",
         "score": 5,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 9
       }
     },
     {
@@ -843,12 +969,14 @@
       "tokens": 119,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "Acrobatic_Phrase_336",
         "reply_to": "Charming_State_2133",
         "score": 1,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 10
       }
     },
     {
@@ -857,12 +985,14 @@
       "tokens": 123,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "DefiantEconomy6591",
         "reply_to": "FeedbackQuirky1834",
         "score": 2,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 11
       }
     },
     {
@@ -871,12 +1001,14 @@
       "tokens": 73,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "anonumosGirl",
         "reply_to": "FeedbackQuirky1834",
         "score": 1,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 12
       }
     },
     {
@@ -885,12 +1017,14 @@
       "tokens": 52,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "FeedbackQuirky1834",
         "reply_to": "anonumosGirl",
         "score": 6,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 13
       }
     },
     {
@@ -899,12 +1033,14 @@
       "tokens": 31,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "totalof19",
         "reply_to": null,
         "score": 45,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 14
       }
     },
     {
@@ -913,12 +1049,14 @@
       "tokens": 48,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "Akul_Tesla",
         "reply_to": "totalof19",
         "score": 2,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 15
       }
     },
     {
@@ -927,12 +1065,14 @@
       "tokens": 89,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "Aldo-ContentCreator",
         "reply_to": null,
         "score": 19,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 16
       }
     },
     {
@@ -941,12 +1081,14 @@
       "tokens": 28,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "ballout420",
         "reply_to": null,
         "score": 9,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 17
       }
     },
     {
@@ -955,12 +1097,14 @@
       "tokens": 69,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "eme_nar",
         "reply_to": null,
         "score": 4,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 18
       }
     },
     {
@@ -969,12 +1113,14 @@
       "tokens": 100,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "keeksthesneaks",
         "reply_to": "eme_nar",
         "score": 2,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 19
       }
     },
     {
@@ -983,12 +1129,14 @@
       "tokens": 25,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "The_chem_E",
         "reply_to": null,
         "score": 1,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 20
       }
     },
     {
@@ -997,12 +1145,14 @@
       "tokens": 55,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "Mountain-Apple-8951",
         "reply_to": null,
         "score": 1,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 21
       }
     },
     {
@@ -1011,12 +1161,14 @@
       "tokens": 250,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "Charming_State_2133",
         "reply_to": "OMGFuck2019",
         "score": 6,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 22
       }
     },
     {
@@ -1025,12 +1177,14 @@
       "tokens": 250,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "Charming_State_2133",
         "reply_to": "OMGFuck2019",
         "score": 6,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 23
       }
     },
     {
@@ -1039,12 +1193,14 @@
       "tokens": 61,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "Charming_State_2133",
         "reply_to": "OMGFuck2019",
         "score": 6,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 24
       }
     },
     {
@@ -1053,12 +1209,14 @@
       "tokens": 14,
       "metadata": {
         "source": "reddit",
+        "doc_name": "another_subreddit",
         "thread_title": "Food on campus",
         "subreddit": "r/CSULB",
         "author": "Charming_State_2133",
         "reply_to": "OMGFuck2019",
         "score": 6,
-        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/"
+        "url": "https://www.reddit.com/r/CSULB/comments/1num4ca/food_on_campus/",
+        "chunk_index": 25
       }
     }
   ]

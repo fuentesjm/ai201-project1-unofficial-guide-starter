@@ -120,6 +120,7 @@ def build_records():
             "text": f"CSULB campus dining options and hours: {doc.get('content', '')}",
             "metadata": {
                 "source": "csulb",
+                "doc_name": "doc_01_csulb",
                 "title": "CSULB Campus Dining",
                 "url": doc.get("url"),
             },
@@ -140,6 +141,7 @@ def build_records():
                     ),
                     "metadata": {
                         "source": "yelp",
+                        "doc_name": "doc_04_yelp_sample_data",
                         "restaurant": name,
                         "restaurant_rating": r.get("rating"),
                         "review_rating": rev.get("rating"),
@@ -156,12 +158,14 @@ def build_records():
             continue
         doc = json.loads(path.read_text(encoding="utf-8"))
         title = (doc.get("thread_title") or "").strip()
+        doc_name = fname.replace("cleaned_", "").replace(".json", "")
 
         if doc.get("post_text"):
             records.append({
                 "text": f"Reddit post in {doc.get('subreddit')} titled '{title}': {doc['post_text']}",
                 "metadata": {
                     "source": "reddit",
+                    "doc_name": doc_name,
                     "thread_title": title,
                     "subreddit": doc.get("subreddit"),
                     "author": "OP",
@@ -184,6 +188,7 @@ def build_records():
                 "text": text,
                 "metadata": {
                     "source": "reddit",
+                    "doc_name": doc_name,
                     "thread_title": title,
                     "subreddit": doc.get("subreddit"),
                     "author": c.get("author"),
@@ -201,15 +206,24 @@ records = build_records()
 print(f"\nBuilt {len(records)} records from {INPUT_DIR}/")
 
 all_chunks = []
+doc_positions = {}  # doc_name -> next chunk position within that document
 for rec in records:
+    doc_name = rec["metadata"]["doc_name"]
     for piece in chunk_text(rec["text"]):
         if not piece.strip():
             continue
+        # Per-document position, for source attribution later
+        position = doc_positions.get(doc_name, 0)
+        doc_positions[doc_name] = position + 1
+
+        meta = dict(rec["metadata"])
+        meta["chunk_index"] = position
+
         all_chunks.append({
             "id": f"chunk_{len(all_chunks):04d}",
             "text": piece,
             "tokens": count_tokens(piece),
-            "metadata": rec["metadata"],
+            "metadata": meta,
         })
 
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
